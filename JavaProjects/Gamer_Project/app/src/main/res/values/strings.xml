@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Game App</string>
+    <string name="game">Grab the Android</string>
+
+    <string name="playGame">Play</string>
+    <string name="settings_button">App Settings</string>
+    <string name="about_button">How to use this App</string>
+
+    <string name="about_text">How to use Game App</string>
+</resources>

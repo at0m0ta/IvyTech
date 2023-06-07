@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/Users/ticticexpress2626/Desktop/CDEV_264/HW_Apps/Module_6/ch07_ex1_TipCalculator/app/src/main/res/values-v21/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar"/>
+</resources>

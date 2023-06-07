@@ -1,0 +1,4 @@
+#Sun Feb 17 22:23:40 EST 2019
+base.0=/Users/ticticexpress2626/Desktop/Stuff/CDEV 264/HW Apps/Module_6/ch06_ex2_TipCalculator/app/build/intermediates/dex/debug/mergeDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

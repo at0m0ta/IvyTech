@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ticticexpress2626/Desktop/CDEV_264/HW_Apps/Module_12/18_1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-mk-rMK/values-mk-rMK.xml",
+            "map": [
+                {
+                    "source": "/Users/ticticexpress2626/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.0.aar/048a5988af1e2c5c9446dc199a649076/res/values-mk-rMK/values-mk-rMK.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "295,403,507,615,701,806,925,1031,1138,1239,1346,1457",
+                        "endColumns": "107,103,107,85,104,118,105,106,100,106,110,103",
+                        "endOffsets": "398,502,610,696,801,920,1026,1133,1234,1341,1452,1556"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,163,267,375,461,566,685,791,898,999,1106,1217",
+                        "endColumns": "107,103,107,85,104,118,105,106,100,106,110,103",
+                        "endOffsets": "158,262,370,456,561,680,786,893,994,1101,1212,1316"
+                    }
+                },
+                {
+                    "source": "/Users/ticticexpress2626/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-22.2.0.aar/4e80402b1e30571651a0951887595099/res/values-mk-rMK/values-mk-rMK.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "297,413,528,635,740,826",
+                        "endColumns": "115,114,106,104,85,91",
+                        "endOffsets": "408,523,630,735,821,913"
+                    },
+                    "to": {
+                        "startLines": "14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "1321,1437,1552,1659,1764,1850",
+                        "endColumns": "115,114,106,104,85,91",
+                        "endOffsets": "1432,1547,1654,1759,1845,1937"
+                    }
+                }
+            ]
+        }
+    ]
+}

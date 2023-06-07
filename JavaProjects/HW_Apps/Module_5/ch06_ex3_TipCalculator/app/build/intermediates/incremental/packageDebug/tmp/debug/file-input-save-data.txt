@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Sun Feb 17 11:17:41 EST 2019
+0.baseType=DIRECTORY
+0.base=/Users/ticticexpress2626/Desktop/Stuff/CDEV 264/HW Apps/Module_6/ch06_ex2_TipCalculator/app/build/intermediates/dex/debug/mergeDexDebug/out
+0.path=classes.dex
+0.set=DEX
+count=1

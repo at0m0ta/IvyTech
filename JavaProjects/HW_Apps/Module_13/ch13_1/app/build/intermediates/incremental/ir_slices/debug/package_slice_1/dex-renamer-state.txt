@@ -1,0 +1,4 @@
+#Sun Apr 21 17:09:02 EDT 2019
+base.0=/Users/ticticexpress2626/Desktop/CDEV_264/HW_Apps/Module_13/ch13_1/app/build/intermediates/transforms/dexMerger/debug/1
+path.0=classes.dex
+renamed.0=classes.dex

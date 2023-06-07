@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ticticexpress2626/Desktop/CDEV_264/HW_Apps/Module_9/ch09_ex3_TipCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/ticticexpress2626/Desktop/CDEV_264/HW_Apps/Module_9/ch09_ex3_TipCalculator/app/src/main/res/values-sw600dp-land/layout.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "11",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

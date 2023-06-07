@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tween Animation</string>
+    <string name="button">Move</string>
+    <string name="skate">skate</string>
+</resources>

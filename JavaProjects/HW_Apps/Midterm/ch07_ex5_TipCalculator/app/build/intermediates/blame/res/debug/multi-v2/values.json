@@ -1,0 +1,58 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ticticexpress2626/Desktop/CDEV_264/HW_Apps/Midterm/ch07_ex5_TipCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/ticticexpress2626/Desktop/CDEV_264/HW_Apps/Midterm/ch07_ex5_TipCalculator/app/src/main/res/values/colors.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,100,139,179,221,265",
+                        "endColumns": "44,38,39,41,43,42",
+                        "endOffsets": "95,134,174,216,260,303"
+                    }
+                },
+                {
+                    "source": "/Users/ticticexpress2626/Desktop/CDEV_264/HW_Apps/Midterm/ch07_ex5_TipCalculator/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "308,360,406,464,503,542,593,638,687,731,785,858,905",
+                        "endColumns": "51,45,57,38,38,50,44,48,43,53,72,46,52",
+                        "endOffsets": "355,401,459,498,537,588,633,682,726,780,853,900,953"
+                    }
+                },
+                {
+                    "source": "/Users/ticticexpress2626/Desktop/CDEV_264/HW_Apps/Midterm/ch07_ex5_TipCalculator/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "2,-1,-1,-1,32",
+                        "startColumns": "4,-1,-1,-1,4",
+                        "startOffsets": "82,-1,-1,-1,1332",
+                        "endLines": "12,-1,-1,-1,36",
+                        "endColumns": "12,-1,-1,-1,12",
+                        "endOffsets": "724,-1,-1,-1,1534"
+                    },
+                    "to": {
+                        "startLines": "21,32,36,39,42",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "958,1595,1773,1904,2035",
+                        "endLines": "31,35,38,41,46",
+                        "endColumns": "12,12,12,12,12",
+                        "endOffsets": "1590,1768,1899,2030,2233"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,4 @@
+#Sat May 11 22:39:34 EDT 2019
+base.0=/Users/ticticexpress2626/Desktop/CDEV_264/HW_Apps/Module_16/ch11_ex4_Reminder/app/build/intermediates/dex/debug/mergeProjectDexDebug/out
+path.0=classes.dex
+renamed.0=classes.dex

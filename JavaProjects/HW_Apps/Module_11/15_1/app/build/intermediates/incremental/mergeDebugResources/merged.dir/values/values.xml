@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task History</string>
+    <string name="date">Date completed: Fri, April 12 2013</string>
+    <string name="name">Take care in for oil check</string>
+    <string name="notes">No notes</string>
+    <style name="AppTheme" parent="android:Theme.Light"/>
+</resources>

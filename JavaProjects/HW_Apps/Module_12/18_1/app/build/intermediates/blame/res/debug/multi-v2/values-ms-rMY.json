@@ -1,0 +1,60 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ticticexpress2626/Desktop/CDEV_264/HW_Apps/Module_12/18_1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ms-rMY/values-ms-rMY.xml",
+            "map": [
+                {
+                    "source": "/Users/ticticexpress2626/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-22.2.0.aar/4e80402b1e30571651a0951887595099/res/values-ms-rMY/values-ms-rMY.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "297,410,520,630,743,829",
+                        "endColumns": "112,109,109,112,85,93",
+                        "endOffsets": "405,515,625,738,824,918"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,18,19,20",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "1440,1553,1663,1773,1886,1972",
+                        "endColumns": "112,109,109,112,85,93",
+                        "endOffsets": "1548,1658,1768,1881,1967,2061"
+                    }
+                },
+                {
+                    "source": "/Users/ticticexpress2626/.gradle/caches/transforms-1/files-1.1/play-services-wallet-8.1.0.aar/1fde95dc6643962ad7b79c46bbd15c99/res/values-ms-rMY/wallet_strings.xml",
+                    "from": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "230",
+                        "endColumns": "107",
+                        "endOffsets": "333"
+                    },
+                    "to": {
+                        "startLines": "21",
+                        "startColumns": "4",
+                        "startOffsets": "2066",
+                        "endColumns": "107",
+                        "endOffsets": "2169"
+                    }
+                },
+                {
+                    "source": "/Users/ticticexpress2626/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.0.aar/048a5988af1e2c5c9446dc199a649076/res/values-ms-rMY/values-ms-rMY.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "295,406,511,619,706,810,921,1033,1142,1239,1348,1451,1558",
+                        "endColumns": "110,104,107,86,103,110,111,108,96,108,102,106,121",
+                        "endOffsets": "401,506,614,701,805,916,1028,1137,1234,1343,1446,1553,1675"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,166,271,379,466,570,681,793,902,999,1108,1211,1318",
+                        "endColumns": "110,104,107,86,103,110,111,108,96,108,102,106,121",
+                        "endOffsets": "161,266,374,461,565,676,788,897,994,1103,1206,1313,1435"
+                    }
+                }
+            ]
+        }
+    ]
+}

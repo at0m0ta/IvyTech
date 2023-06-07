@@ -1,0 +1,89 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ticticexpress2626/Desktop/CDEV_264/original_android/book_apps/ch15_TaskList/app/build/intermediates/res/merged/debug/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/ticticexpress2626/Desktop/CDEV_264/original_android/book_apps/ch15_TaskList/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "75",
+                        "endLines": "2",
+                        "endColumns": "12",
+                        "endOffsets": "140"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "504",
+                        "endLines": "13",
+                        "endColumns": "12",
+                        "endOffsets": "569"
+                    }
+                },
+                {
+                    "source": "/Users/ticticexpress2626/Desktop/CDEV_264/original_android/book_apps/ch15_TaskList/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "14,2,17,11,15,16,5,9,6,10",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "396,17,522,319,442,484,99,221,142,269",
+                        "endColumns": "45,46,41,47,41,37,42,47,44,49",
+                        "endOffsets": "437,59,559,362,479,517,137,264,182,314"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,101,148,190,238,280,318,361,409,454",
+                        "endColumns": "45,46,41,47,41,37,42,47,44,49",
+                        "endOffsets": "96,143,185,233,275,313,356,404,449,499"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/ticticexpress2626/Desktop/CDEV_264/original_android/book_apps/ch15_TaskList/app/build/intermediates/res/merged/debug/values-v14_values-v14.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/ticticexpress2626/Desktop/CDEV_264/original_android/book_apps/ch15_TaskList/app/src/main/res/values-v14/styles.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "62",
+                        "endOffsets": "74"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "62",
+                        "endOffsets": "113"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/ticticexpress2626/Desktop/CDEV_264/original_android/book_apps/ch15_TaskList/app/build/intermediates/res/merged/debug/values-v11_values-v11.arsc.flat",
+            "map": [
+                {
+                    "source": "/Users/ticticexpress2626/Desktop/CDEV_264/original_android/book_apps/ch15_TaskList/app/src/main/res/values-v11/styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "63",
+                        "endOffsets": "76"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "62",
+                        "endOffsets": "113"
+                    }
+                }
+            ]
+        }
+    ]
+}

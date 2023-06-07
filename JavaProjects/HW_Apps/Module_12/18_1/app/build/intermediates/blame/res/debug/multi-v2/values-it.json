@@ -1,0 +1,111 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ticticexpress2626/Desktop/CDEV_264/HW_Apps/Module_12/18_1/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-it/values-it.xml",
+            "map": [
+                {
+                    "source": "/Users/ticticexpress2626/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-22.2.0.aar/4e80402b1e30571651a0951887595099/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "293,406,521,632,738,825",
+                        "endColumns": "112,114,110,105,86,97",
+                        "endOffsets": "401,516,627,733,820,918"
+                    },
+                    "to": {
+                        "startLines": "33,34,35,36,37,38",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "4202,4315,4430,4541,4647,4734",
+                        "endColumns": "112,114,110,105,86,97",
+                        "endOffsets": "4310,4425,4536,4642,4729,4827"
+                    }
+                },
+                {
+                    "source": "/Users/ticticexpress2626/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/f51e263d90e5234800ab6e7e3064464b/res/values-it/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,348,531,654,760,977,1103,1249,1378,1594,1699,1884,2009,2224,2431,2524,2611",
+                        "endColumns": "102,182,122,105,216,125,145,128,215,104,184,124,214,206,92,86,101",
+                        "endOffsets": "347,530,653,759,976,1102,1248,1377,1593,1698,1883,2008,2223,2430,2523,2610,2712"
+                    },
+                    "to": {
+                        "startLines": "15,16,17,18,19,20,21,22,24,25,26,27,28,29,30,31,32",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1491,1598,1781,1908,2018,2235,2365,2515,2843,3059,3168,3353,3482,3697,3908,4005,4096",
+                        "endColumns": "106,182,126,109,216,129,149,132,215,108,184,128,214,210,96,90,105",
+                        "endOffsets": "1593,1776,1903,2013,2230,2360,2510,2643,3054,3163,3348,3477,3692,3903,4000,4091,4197"
+                    }
+                },
+                {
+                    "source": "/Users/ticticexpress2626/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d3e2f923fdad02e833e4c18cd67ddd6c/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "39",
+                        "startColumns": "4",
+                        "startOffsets": "4832",
+                        "endColumns": "100",
+                        "endOffsets": "4928"
+                    }
+                },
+                {
+                    "source": "/Users/ticticexpress2626/.gradle/caches/transforms-1/files-1.1/play-services-wallet-8.1.0.aar/1fde95dc6643962ad7b79c46bbd15c99/res/values-it/wallet_strings.xml",
+                    "from": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "230",
+                        "endColumns": "108",
+                        "endOffsets": "334"
+                    },
+                    "to": {
+                        "startLines": "40",
+                        "startColumns": "4",
+                        "startOffsets": "4933",
+                        "endColumns": "108",
+                        "endOffsets": "5037"
+                    }
+                },
+                {
+                    "source": "/Users/ticticexpress2626/.gradle/caches/transforms-1/files-1.1/appcompat-v7-22.2.0.aar/048a5988af1e2c5c9446dc199a649076/res/values-it/values-it.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "291,400,500,609,693,802,927,1033,1141,1239,1343,1448,1555",
+                        "endColumns": "108,99,108,83,108,124,105,107,97,103,104,106,121",
+                        "endOffsets": "395,495,604,688,797,922,1028,1136,1234,1338,1443,1550,1672"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,214,314,423,507,616,741,847,955,1053,1157,1262,1369",
+                        "endColumns": "108,99,108,83,108,124,105,107,97,103,104,106,121",
+                        "endOffsets": "209,309,418,502,611,736,842,950,1048,1152,1257,1364,1486"
+                    }
+                },
+                {
+                    "source": "/Users/ticticexpress2626/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/36a072a827d76cc57ff4f3c3980766be/res/values-it/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "194",
+                        "endOffsets": "441"
+                    },
+                    "to": {
+                        "startLines": "23",
+                        "startColumns": "4",
+                        "startOffsets": "2648",
+                        "endColumns": "194",
+                        "endOffsets": "2838"
+                    }
+                }
+            ]
+        }
+    ]
+}

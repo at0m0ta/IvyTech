@@ -1,0 +1,4 @@
+#Sat Mar 09 20:28:19 EST 2019
+base.0=/Users/ticticexpress2626/Desktop/CDEV_264/HW_Apps/Midterm/ch08_ex4_TipCalculator/app/build/intermediates/transforms/dexMerger/debug/4
+path.0=classes.dex
+renamed.0=classes.dex
