@@ -1,0 +1,43 @@
+/*  
+      SDEV 250 Client Side Script
+      M01 CH01
+	  
+      Case Project
+
+      Author:Liliana Varela-Rodriguez 
+      Date:   
+
+      Filename: styel.css
+*/
+
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+
+/* reset rules 
+html, body, div, h1, h2, h3, p, a, 
+article, footer, header, li, nav, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline; */
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+/*Navigation*/
+div nav {
+	
+}
+nav li {
+	display: inline;
+}
