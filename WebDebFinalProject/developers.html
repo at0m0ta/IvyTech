@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html class="bg">
+<head>
+   <!--
+      SDEV 250 Client Side Script
+      M01 CH01
+	  
+      Case Project
+
+      Author:Liliana Varela-Rodriguez 
+      Date:   
+
+      Filename: developers.htm
+   -->
+   
+   <title>So you want to become a developer</title>
+   <!--links-->
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <script src="quiz.js"></script>
+    <style type="text/css" media="screen">
+    </style>
+</head>
+
+<body>
+   <header>
+	  	<!--this piece of code holds main navigation bar-->
+		<div>
+			<nav>
+				<ul class="nav">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="developers.html">Types of Developer</a></li>
+					<li><a href="education.html">Learning</a></li>
+					<li><a href="findwork.html">Build your Presence</a></li>
+					<li><a href="environment.html">Finding Work</a></li>
+                    <li><a href="security.html">Online Security</a></li>
+                    <li><a href="contactUs.html">Contact Us</a></li>
+				</ul>
+			</nav>
+            <h1 class="mainHead">
+             "What type of developer should I become?"
+          </h1>
+		</div>
+   </header>
+       <article>
+		<div class="mobweb-image">
+            <div class="mobweb-text">
+                <h2>Web & Mobile</h2>
+                <p>A Web Developer  is Someone who specializes in building applications that are used in a browser. The languages and software you will be using may be different, but the result is the same. There is a strong focus on User Interaction (UI) and User Experience (UX) in web development. You may also need to work in the  backend; This means setting up databases or writing APIs (application programming interface).
+                    <br><br>
+                A Mobile Developer — Someone who specializes in building applications that are used on mobile devices, such as smartphones or tablets. A strong focus on UI/UX may or may not be needed. Technologies can take two distinct paths, either native or hybrid/cross-platform development. May also require a backend of some sort. They actually both overlap now days. So going into web development will someways assume mobile as well.<p>
+            </div>
+		</div>
+		<div class="data-image">
+            <div class="data-text">
+                <h2>Analytics & Data Science</h2>
+                <p> Data Science is a field that is made up of everything that related to data cleansing, preparation, and analysis. Data Science is the combination of statistics, mathematics, programming, problem-solving, capturing data in clever ways, the ability to look at things differently, as well as  cleansing, preparing and aligning the data to what is needed. Data Science is basically the general techniques used when trying to extract information from data.
+                <br><br>
+                Data Analytics the science of examining the raw data and drawing conclusions about that information. Data Analytics involves applying an algorithms or mechanical process to gain useful insights. For example, running through data sets to look for meaningful correlations.
+                    <br><br>
+                Data Science is used in a number of industries to allow the organizations to make better decisions as well as verify and disprove existing theories or models. The focus of Data Analytics is inference, the process of deriving conclusions that are solely based on what the researcher already knows.<p>
+            </div>
+		</div>
+		<div class="cyber-image">
+            <div class="cyber-text">
+                <h2>Cyber Security</h2>
+                <p>Cybersecurity is the protection of internet-connected systems, including hardware, software and data, from cyberattacks. In a computing, security is comprised of cybersecurity and physical security -- both are used by enterprises to protect against unauthorized access to data centers and other systems.
+                    <br><br>
+                    Information security, is designed to maintain the confidentiality, integrity and availability of data, is a subset of cybersecurity.
+                    <br><br>
+                Analysts in the projected of cybersecurity jobs states that the field will grow 28 percent from 2016 to 2026, faster than the average for other career fields. These analysts will be needed to create solutions to prevent hackers from stealing critical information or causing problems for computer networks.<p>
+            </div>
+		</div>
+   </article>
+    <div class="container" class="date">
+        <h3>Let's take a small quiz! What type of Developer am I?</h3>
+            <form name="quiz1">
+                <ul style="list-style-type:none">
+                    <li><label>Enter Your Birthday</label></li>
+                    <li><input type="date" name="field1" id="field1"></li>
+                    <br>
+                    <br>
+                    <li><label for="date">Current Date</label></li>
+                    <script id="curDate">
+                        var d = new Date();
+                        document.write(d);
+                        var bDay = new Date(document.quiz1.field1);
+                        var eTime = d - bDay;
+
+                        function calcDate(field1) {
+
+                            var diff = Math.abs(new Date() - new Date(document.getElementById('field1').value));
+
+                            //milliseconds converted to days
+                            diff = Math.round(diff / 24 / 60 / 60/ 1000);
+                            //days converted to months
+                            var months = Math.floor(diff / 30);
+                            //months converted to years 
+                            var years = Math.floor(months /12);
+                            document.write(years + " years or ");
+                            document.write(months + " months or ");
+                            document.write(diff +" or days since your birthday!");
+                        }
+                    </script>
+                    <br><br>
+                    <li><input type="submit" value="Submit!" id="submit"></li>
+                </ul>
+                </form>
+                     <br/><br/>
+           <form name="quiz" method="get" class="quiz" onsubmit="return submitQuiz(this);">
+              <ul style="list-style-type:none;">
+                <li><label id="web">Do you ever think about how you would design a web page?</label></li>
+                <br>
+                <li><input type="radio" value="no" name="rad1" /><span>No</span></li>
+                <li><input type="radio" value="yes" name="rad1" /><span>Yes</span></li>
+                <br>
+                <br>
+                <li><label for="prior">Which the following are your main priorities? If none, select N/A</label></li>
+                <li>
+                  <select name="prior">
+                    <option value="none">**Please select one of the following**</option>
+                    <option>Ease of Use</option>
+                    <option>Graphics & Content</option>
+                    <option>The Data Collected</option>
+                    <option>Securing the site from possible attacks</option>
+                    <option>Overseeing the creation of software</option>
+                  </select>
+                </li>
+                <br>
+                <br>
+                <li><label id="res">Do you enjoy conducting research, asking questions, and building reports?</label></li>
+                <br>
+                <li><input type="radio" value="no" name="rad2" /><span>No</span></li>
+                <li><input type="radio" value="yes" name="rad2" /><span>Yes</span></li>
+                <br>
+                <br>
+                <li><label for="tx1">Does hacking a system or stopping a system from being hacked sound interesting to you? Type Yes or No:</label></li>
+                <!-- maxlength="3" not supported by textarea -->
+                <li><textarea name="tx1"></textarea></li>
+                <br>
+                <li><input type="submit" value="Submit!" id="submit"></li>
+                <li><input type="reset" id="reset"></li>
+              </ul>
+        </form>
+    </div>
+    <footer class="foot">
+        <table>
+            <tr>
+                <th>Helpful Links</th>
+                <th>Contact</th>
+                <th>Site Map</th>
+            </tr>
+            <tr>
+                <td><a href="https://www.w3schools.com/"><span style="color:#dc9900;">W3 Schools</span></a></td>
+                <td>253 1/4 W. Main St.</td>
+                <td><a href="index.html"><span style="color:#dc9900;">Home</span></a></td>
+              </tr>
+              <tr>
+                  <td><a href="https://developers.google.com/"><span style="color:#dc9900;">Google Developers</span></a></td>
+                <td>Indianapolis, IN </td>
+                  <td><a href="developers.html"><span style="color:#dc9900;">Types of Developer</span></a></td>
+              </tr>
+              <tr>
+                  <td><a href="https://stackoverflow.com/"><span style="color:#dc9900;">Stack Overflow</span></a></td>
+                <td>samplemail@hostmail.com</td>
+                  <td><a href="education.html"><span style="color:#dc9900;">Learning</span></a></td>
+              </tr>
+              <tr>
+                  <td><a href="https://www.codecademy.com/learn"><span style="color:#dc9900;">Codecademy</span></a></td>
+                <td></td>
+                  <td><a href="findwork.html"><span style="color:#dc9900;">Build your Presence</span></a></td>
+            </tr>
+            <tr>
+                <td><a href="https://techcrunch.com/developer/"><span style="color:#dc9900;">TechCrunch</span></a></td>
+                <td></td>
+                <td><a href="environment.html"><span style="color:#dc9900;">Finding Work</span></a></td>
+            </tr>
+            <tr>
+                <td><a></a></td>
+                <td></td>
+                <td><a href="security.html"><span style="color:#dc9900;">Online Security</span></a></td>
+            </tr>
+            <tr>
+                <td><a></a></td>
+                <td></td>
+                <td><a href="contactUs.html"><span style="color:#dc9900;">Contact Us</span></a></td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

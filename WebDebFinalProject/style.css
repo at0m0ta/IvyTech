@@ -1,0 +1,350 @@
+/*  
+      SDEV 250 Client Side Script
+      M01 CH01
+	  
+      Case Project
+
+      Author:Liliana Varela-Rodriguez 
+      Date:   
+
+      Filename: styel.css
+*/
+
+/* apply a natural box layout model to all elements */
+* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+
+/* reset rules 
+html, body, div, h1, h2, h3, p, a, 
+article, footer, header, li, nav, ul {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline; */
+
+/* HTML5 display-role reset for older browsers */
+a, article, aside, body, details, figcaption, figure, footer, header, hgroup, html, li, menu, nav, section, ul {
+   display: inline;
+}
+
+/*        <<<<    Navigation    >>>>        */
+.nav {
+    font-family: Ariel, Helvetica, sans-serif;
+    font-weight: 800;
+    list-style-type: none;
+    text-align: center;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    float:inherit;
+}
+.nav li a {
+    font-size: 33px;
+    display: list-item;
+    text-align: center;
+    color: antiquewhite;
+    border: 10px solid #002d33;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    background: darkslategrey;
+    text-decoration-line: none;
+}
+/* Change the link color on hover */
+.nav li a:hover {
+    background-color: midnightblue;
+    color: lightyellow;
+    font-size: 37px;
+}
+
+body, html {
+    height: 300%;
+    margin: 0;
+}
+
+/*       <<<<  page background   >>>>        */
+.bg {
+    /* The image used */
+    background-image: url("image/back1.png");
+
+    /* Full height */
+    height:300%; 
+    width: auto;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mainHead {
+    border-radius: 5px;
+    border: 15px solid darkslategrey; 
+    background-color: antiquewhite;
+    padding: 20px;
+    color: midnightblue;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 3px 1px 0 mediumaquamarine;
+}
+
+/*  <<<<  image background+text  >>>>    */
+
+/* <index, 1st h, 1st p> */
+
+
+body, html {
+    height: 60%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bblock-image {
+  background-image: url("image/block.png");
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bblock-text {
+  text-align: left;
+  position: absolute;
+  top: 38%;
+  left: 24%;
+  right: 40%;
+  transform: translate(-50%, -40%);
+  color: white;
+  background: slategrey;
+  padding: 10px 20px 20px 40px;
+  overflow: visible;
+  font-size: 20px;
+}
+/* <index, 2nd h, 2nd p>*/
+.developer-image {
+  background-image: url("image/developer.jpeg");
+  height: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.developer-text {
+  text-align: left;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  right: 40%;
+  transform: translate(100%, -40%);
+  color: white;
+  padding: 10px 20px 50px 20px;
+  overflow: visible;
+  background: black;
+    font-size: 20px;
+}
+/* <developer, 1st h, p>*/
+.mobweb-image {
+  background-image: url("image/webdev1.png");
+  height: 38%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.mobweb-text {
+  text-align: left;
+  position: absolute;
+  top: %;
+  left: 35%;
+  right: 10%;
+  bottom: 70%;
+  transform: translate(-55%, 105%);
+  color: antiquewhite;
+  font-size: 20px;
+  padding: 10px 30px 42px 20px;
+  overflow: visible;
+  background: slategrey;
+}
+
+/*    <developer, 2nd h, p>   */
+.data-image {
+  background-image: url("image/data1.png");
+  height: 35%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.data-text {
+  text-align: left;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  right: 40%;
+  transform: translate(100%, -20%);
+  color: antiquewhite;
+    font-size: 20px;
+  padding: 40px 20px 80px 20px;
+  overflow: visible;
+  background: black;
+}
+/*    <developer, 3rd h, p>   */
+.cyber-image {
+  background-image: url("image/security.png");
+  height: 33%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.cyber-text {
+  text-align: left;
+  position: absolute;
+  top: 25%;
+  left: 20%;
+  right: 40%;
+  bottom: -15%;
+  transform: translate(98%, -24%);
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px 20px 20px;
+  overflow: visible;
+  background: slategrey;
+}
+/*           <<<<     Learning      >>>>    */
+.skill, .boot, .bug {
+    border-radius: 5px;
+    border: 25px solid darkslategrey; 
+    background-color: antiquewhite;
+    padding: 20px;
+    color: midnightblue;
+    font-size: 22px;
+}
+/*        <<<<   findwork,  environment, security    >>>>    */
+.where, .work, .rem{
+    border-radius: 5px;
+    border: 25px solid darkslategrey; 
+    background-color: antiquewhite;
+    padding: 20px;
+    color: midnightblue;
+    font-size: 22px;
+}
+.pres, .ques {
+    border-radius: 5px;
+    border: 25px solid darkslategrey; 
+    background-color: antiquewhite;
+    padding: 20px;
+    color: midnightblue;
+    font-size: 22px;
+}
+.secure, .sec-tab, .links {
+    border-radius: 5px;
+    border: 25px solid darkslategrey; 
+    background-color: antiquewhite;
+    padding: 20px;
+    color: midnightblue;
+    text-align: center;
+    font-size: 22px;
+}
+
+/*     <<<<     Contact & Quiz form     >>>>     */
+/*  Contact form   */
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+input[type=text], form, select, textarea {
+    width: 100%;
+    padding: 12p;
+    border: 0px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-size: 22px;
+}
+input[type=submit] {
+    background-color: midnightblue;
+    color: antiquewhite;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+    font-size: 22px;
+}
+.container {
+    border-radius: 5px;
+    border: 25px solid darkslategrey; 
+    background-color: antiquewhite;
+    padding: 20px;
+    color: midnightblue;
+    font-size: 22px;
+}
+/*    Quiz form buttons   */
+input[type=radio],  {
+    width: 10%;
+    font-size: 22px;
+}
+input[type=button] {
+    background-color: midnightblue;
+    color: antiquewhite;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+}
+input[type=button]:hover {
+    background-color: #45a049;
+    font-size: 22px;
+}
+input[type=reset] {
+    background-color: midnightblue;
+    color: antiquewhite;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 22px;
+}
+input[type=reset]:hover {
+    background-color: #45a049;
+    font-size: 22px;
+}
+
+/*     <<<<     Footer    >>>>     */
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #002d33;
+    color: #dc9900;
+    font-family: "Lucida Console", "Lucinda Sans Typewriter", Monaco, monospace;
+    font-size: 25px;
+    border-collapse:collapse;
+}
+footer, table {
+  border-collapse: collapse;
+  width: 100%;
+    text-align: center;
+}
+
+fth, td {
+  padding: 10px;
+  font-size: 18px;
+  font-weight:750;
+}
+  
+
+
+
+
+
+
